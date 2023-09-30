@@ -6,18 +6,16 @@ export default defineNuxtConfig({
     '@nuxt/image',
 ],
 image: {
-  inject: true,
-  quality: 80,
-  format: ['webp','webp', 'jpeg' , 'jpg' , 'png'],
-  screens: {
-    'xs': 320,
-    'sm': 640,
-    'md': 768,
-    'lg': 1024,
-    'xl': 1280,
-    'xxl': 1536,
-    '2xl': 1536
-  },
+dir:"public",
+    presets: {
+      blog: {
+        modifiers: {
+          format: 'webp',
+          quality: '60'
+        }
+      }
+    }
+
 },
 app:{
   head:{

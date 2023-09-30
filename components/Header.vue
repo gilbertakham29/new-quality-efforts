@@ -1,8 +1,8 @@
 <template>
-   
+
     <div class="bg-[#000837] max-w-screen py-5">
         <div class="flex items-center justify-center mb-5 md:mb-0">
-            <img class="md:w-32 w-16" src="/logoOne.svg" alt="logo"/>
+            <NuxtImg class="md:w-32 w-16" src="/logoOne.svg" alt="logo" preset="blog"/>
             <h2 class="text-center text-2xl md:text-7xl font-bold text-white">
                 Quality
                 <span class="text-[#FFC03D]">Efforts</span>.com
