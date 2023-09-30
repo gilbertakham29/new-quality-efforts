@@ -1,5 +1,9 @@
 <template>
-   <Header/>
+<Head>
+   <Title>QualityEfforts.com</Title>
+</Head>
+   <div>
+      <Header/>
    <SubHeader/>
    <MarketingFeatureOne/>
    <MarketingPortfolio/>
@@ -7,6 +11,8 @@
    <MarketingSection/>
    <FAQs/>
    <Footer/>
+   </div>
+   
 </template>
 
 <script setup>
