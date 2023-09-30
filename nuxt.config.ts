@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
 ],
+image: {
+  inject: true
+},
 app:{
   head:{
     script:[
