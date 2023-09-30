@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
 ],
 image: {
-  inject: true
+  
 },
 app:{
   head:{
