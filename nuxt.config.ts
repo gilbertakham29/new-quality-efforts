@@ -5,7 +5,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
 ],
-
+dir:{
+  public:"public"
+},
 
 app:{
   head:{
