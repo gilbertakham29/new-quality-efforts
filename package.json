@@ -15,6 +15,7 @@
     "nuxt": "^3.7.4"
   },
   "dependencies": {
+    "@netlify/ipx": "^1.4.4",
     "@nuxt/image": "^1.0.0-rc.2",
     "flowbite": "^1.8.1"
   }

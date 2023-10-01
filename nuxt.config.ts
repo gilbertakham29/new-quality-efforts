@@ -5,9 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
 ],
-image:{
-  provider:'ipx'
-},
+
 
 app:{
   head:{
