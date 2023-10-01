@@ -5,18 +5,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
 ],
-image: {
-dir:"public",
-    presets: {
-      blog: {
-        modifiers: {
-          format: 'webp',
-          quality: '60'
-        }
-      }
-    }
-
+image:{
+  provider:'ipx'
 },
+
 app:{
   head:{
     script:[
